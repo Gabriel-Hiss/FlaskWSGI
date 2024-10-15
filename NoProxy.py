@@ -5,7 +5,6 @@ from paste.translogger import TransLogger
 
 
 logger = logging.getLogger('waitress')
-logger.setLevel(logging.INFO)
 
 app_logged = TransLogger(app, setup_console_handler=True)
 
